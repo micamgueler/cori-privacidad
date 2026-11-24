@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cori · Política de privacidad</title>
+<style>
+  :root { --texto: #1D3343; --suave: #4A5766; --borde: #D6E4F6; --fondo: #F5F8FC; --tarjeta: #FFFFFF; --acento: #035C80; }
+  @media (prefers-color-scheme: dark) {
+    :root { --texto: #E8EEF5; --suave: #A9B7C6; --borde: #2C3E50; --fondo: #0F1B26; --tarjeta: #16242F; --acento: #7CC3E0; }
+  }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  .hoja { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 14px; padding: 24px 24px 12px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 26px 0 6px; }
+  .sub { color: var(--suave); margin: 0 0 8px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  code { font-size: 0.9em; background: var(--fondo); border: 1px solid var(--borde); border-radius: 4px; padding: 0 4px; }
+  a { color: var(--acento); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 6px 0 10px; }
+  td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde); vertical-align: top; }
+  tbody th { background: var(--fondo); font-size: 0.85rem; text-transform: uppercase; letter-spacing: .03em; color: var(--suave); }
+  thead th { font-size: 0.85rem; color: var(--suave); }
+</style>
+</head>
+<body>
+<main>
+<div class="hoja">
+  <h1>Cori · Política de privacidad</h1>
+  <p class="sub">Extensión «Cori para Trello», de la Dirección General de Cultura Organizacional (DGCOR), Ministerio de Salud GCBA. Vigente desde el 24 de noviembre de 2026.</p>
+
+  <p><b>En corto:</b> Cori lee el tablero de Trello que tenés abierto para mostrarte tus pendientes, y todo lo que guarda queda en tu navegador. No manda datos a ningún servidor, no los vende ni los comparte, y no cambia nada en Trello.</p>
+
+  <h2>Qué datos lee</h2>
+  <p>Solo en <code>trello.com</code> y con tu propia sesión de Trello: las tarjetas del tablero abierto (nombres, listas, fechas, etiquetas, checklists y campos personalizados), los miembros de cada tarjeta y los nombres de los miembros del tablero. Los nombres se usan únicamente para armar «Lo mío» y el Excel de seguimiento en tu computadora.</p>
+  <p>También nota si estás escribiendo en una tarjeta, para correrse y no tapar, y cuenta cuántos avisos viste, cuántos pomodoros hiciste y cuántos pasos tachaste (solo cantidades). No registra qué teclas tocás ni dónde hacés clic.</p>
+  <p>No lee otras páginas, tu historial de navegación, contraseñas ni datos de pago.</p>
+
+  <h2>Qué hace con esos datos</h2>
+  <ul>
+    <li>Te muestra tus pendientes, te avisa lo vencido o lo que vence, y marca los datos que faltan en cada tarjeta.</li>
+    <li>Si las activás, muestra notificaciones del navegador. Se arman en tu computadora y no pasan por ningún servidor.</li>
+    <li>Arma el Excel de seguimiento en tu computadora y lo descarga como cualquier archivo. No lo sube a ningún lado.</li>
+  </ul>
+  <p><b>Sobre el Excel:</b> como el informe de seguimiento del equipo, incluye el nombre, la lista, las etiquetas, los miembros y el link de cada tarjeta. Una vez descargado es un archivo de trabajo más: conviene guardarlo y compartirlo con el mismo cuidado que el resto de los documentos del área.</p>
+
+  <h2>Qué guarda, dónde y por cuánto tiempo</h2>
+  <p>Todo queda en el navegador de cada persona y nadie más lo ve. <b>No guarda nombres de personas.</b> El único lugar donde queda el nombre de una tarjeta es la agenda de avisos, y solo hasta que el aviso suena.</p>
+  <table>
+    <thead><tr><th>Qué</th><th>Por cuánto tiempo</th></tr></thead>
+    <tbody>
+      <tr><th colspan="2">En el almacenamiento de la extensión</th></tr>
+      <tr><td>Tus ajustes y si ya viste la bienvenida</td><td>Hasta que los borres</td></tr>
+      <tr><td>La agenda de próximos avisos (hora y nombre de la tarjeta que vence)</td><td>Se borra apenas suena el aviso; como máximo 4 días hacia adelante</td></tr>
+      <tr><td>Qué notificaciones ya mostró, para no repetirlas</td><td>3 días</td></tr>
+      <tr><td>A qué pestaña volver al tocar una notificación</td><td>1 día</td></tr>
+      <tr><th colspan="2">En el navegador, dentro de trello.com</th></tr>
+      <tr><td>Avisos vistos, saludo y cierre del día, notificaciones del día</td><td>Solo el día</td></tr>
+      <tr><td>Avisos pospuestos</td><td>24 horas</td></tr>
+      <tr><td>Pomodoro, «no molestar» y si la ocultaste</td><td>Mientras dure</td></tr>
+      <tr><td>Tarjetas y pasos que tenías asignados (solo identificadores)</td><td>Se reemplaza cada vez que lee el tablero</td></tr>
+      <tr><td>Resumen semanal del tablero (solo cantidades)</td><td>8 semanas</td></tr>
+      <tr><td>% del informe de cada semana, total y por tribu</td><td>26 semanas</td></tr>
+      <tr><td>% de cada tarjeta al descargar el Excel (identificadores y números)</td><td>Las últimas 8 descargas</td></tr>
+      <tr><td>Lo que sacaste de «Lo mío» (solo identificadores)</td><td>6 meses</td></tr>
+      <tr><td>Días con algo vencido (solo cantidades)</td><td>30 días</td></tr>
+      <tr><td>Tus logros</td><td>1 año</td></tr>
+      <tr><td>Tu uso de Cori por mes (solo cantidades)</td><td>6 meses</td></tr>
+      <tr><td>Tu tribu elegida y qué secciones dejaste abiertas</td><td>Hasta que las cambies</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Cómo borrarlo</h2>
+  <ul>
+    <li><b>Todo de una vez:</b> en Trello, tocá a Cori → ajustes → <b>Borrar todo lo que guardó Cori</b>. Borra las dos partes, la de la extensión y la de trello.com, en ese navegador.</li>
+    <li><b>Desinstalar la extensión</b> borra lo del almacenamiento de la extensión, pero no lo guardado dentro de trello.com. Para que no quede nada, usá el botón de arriba antes de desinstalarla.</li>
+    <li>También se puede borrar desde la configuración del navegador, eliminando los datos del sitio trello.com. Ojo: eso también cierra tu sesión de Trello.</li>
+  </ul>
+
+  <h2>Qué no hace</h2>
+  <ul>
+    <li>No envía datos a servidores propios ni de terceros. Solo se comunica con trello.com, para leer el tablero, y usa sus propios archivos (imágenes y código que vienen dentro de la extensión).</li>
+    <li>No vende, no cede y no comparte datos con nadie.</li>
+    <li>No usa los datos para publicidad, perfiles, evaluación de crédito ni nada ajeno a mostrarte tus pendientes.</li>
+    <li>No usa inteligencia artificial ni servicios externos.</li>
+    <li>No cambia nada en Trello: no mueve tarjetas, no tilda pasos y no edita.</li>
+  </ul>
+
+  <h2>Permisos que pide</h2>
+  <ul>
+    <li><code>https://trello.com/*</code>: para mostrarse en Trello y leer el tablero abierto.</li>
+    <li><code>storage</code>: para guardar los ajustes y compartirlos con la página de opciones.</li>
+    <li><code>alarms</code>: para mostrar a su hora los avisos de la agenda (fin del pomodoro, cierre del día, vencimientos).</li>
+    <li><code>notifications</code> (optativo): solo si tocás «Permitir notificaciones» en las opciones de la extensión.</li>
+  </ul>
+
+  <h2>Uso limitado</h2>
+  <p>El uso de la información que recibe la extensión cumple con la <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Política de Datos del Usuario de Chrome Web Store</a>, incluidos los requisitos de Uso Limitado.</p>
+
+  <h2>Cambios</h2>
+  <p>Si esta política cambia, se actualiza esta página con su nueva fecha de vigencia.</p>
+</div>
+</main>
+</body>
+</html>
